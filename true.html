@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project site</title>
+  <link rel="stylesheet" href="true.css">
+  
+</head>
+<body>
+  <script src="true.js">
+
+  </script>
+  <header id="header">
+    <div id="toggle"></div>
+    <div id="navbar">
+      <ul id="home">
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#serv">SERVICES</a></li>  
+      <li><a href="#menu">MENU</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </div>
+  </header>
+  <script>
+    const toggle = document.getElementById("toggle");
+const navbar = document.getElementById("navbar");
+const header = document.getElementById("header");
+
+document.onclick = function(e) {
+  if (e.target.id !== "header" && e.target.id !== "toggle" && e.target.id !== "navbar") {
+      toggle.classList.remove("active");000000
+      navbar.classList.remove("active")
+  }
+}
+  toggle.onclick = function() {
+  toggle.classList.toggle("active");
+  navbar.classList.toggle("active");
+}
+  </script>
+  
+ <div class="demo-wrap" >
+<img src="pictures/programming/images (83).jpeg" alt="" class="demo-bg" >
+<div class="demo-container">
+<div class="demo-content">
+  <div id="home"></div>
+  <center>
+   <h2>
+    <span id="m">Mkbennys</span>
+    <span id="k">Kitchen</span>
+ 
+   </h2>
+   
+    
+   </center>
+ </div>
+</div>
+ <img src="pictures/programming/images (84).jpeg" alt="" id="lf">
+ 
+  <br>
+  <h2 id="pad">Tasty delicacies  <span class="typed-text">Just For You</span><span class="cursor typing"></span></p>
+    <br>
+    <a href="#menu."> <button id="home-btn">View Menu</a></button>
+ 
+
+   
+
+     <br>
+
+
+     
+     </div>
+ 
+  
+      <section id="abt-us">
+      <center>
+        <p id="about"></p>
+        <br>
+        <br>
+        <br>
+      <h2 id="abt">About us</h2>
+      </center>
+      <!-- <div id="ab"> -->
+       <div class="html">
+        <div class="css2">
+     <div class="company-info">
+        Mkbennys was founded in the year 2019, by creative culinary and pastry chef Mrs Folake James. From Local delicacies,dishes and plain culinary delights to international cuisine and confectionaries from 
+          diferent parts of the world, we are your sure plug.Thanks for your patronage.
+          
+      </div>
+          </div>
+          <div class="css2">
+
+          </div>
+          <div class="css2">
+             <div class="company-img"> 
+         <img src="pictures/programming/Mummy.png"  width="100%" style="float: right;">
+        </div>
+       </div> 
+      </div>
+     <!-- </div>  -->
+     </section>
+  
+
+
+
+
+
+    <div class=html  id="serv">
+      <div class="services-title">SERVICES</div>
+      <h3 id="ad-services" style="text-align:center">Additional services</h3>
+        <p id="add-services" style="text-align:center">Over the course of our company's existence, we've done our best to give state-of-the-art quality foods to our clients and customers from various places. These pictures are a perfect example.</p>
+      <div class="css2" height="400px">
+        <center>
+        <img src="pictures/programming/Parfait.jpeg" alt="parfait" width="98%" height="300px"  style="border-radius: 30px;">
+        </center>
+        <div class="col col2" id="service-pg"><center>Delicious confectionaries</center></div>
+      </div>
+
+      <div class="css2">
+        <center>
+        <div class="col col1"><img src="pictures/programming/images (2).jpeg" alt="local delicacies"  width="98%" height="300px"  style="border-radius: 30px;"></div>
+        </center>
+            <div class="col col2" id="service-pg1"> <center>Local delicacies</center></div>
+      </div>
+      <div class="css2">
+        <center>
+        <div class="col col1"><img src="pictures/programming/Granola.jpeg" alt="Parfait"  width="98%" height="300px" style="border-radius: 30px;"></div>
+        </center>
+        <div class="col col2" id="service-pg"><center>Granola Bars</center></div>
+      </div>
+        <center>
+          
+         <button id="contact-btn">  <a href="#contact">Contact</a></button>
+        </p>
+      </p>
+         </center>
+      </div>
+       
+      
+      </section>
+
+      
+<div class="html">
+  <div class="menu-title" id="menu">
+    <center>
+    <h2>Our   
+      <span class="typed-text">  
+        Menu 
+      </span>
+    </h2>
+  </center>
+  </div>
+
+  <div class="menu-content">
+    <div class="menu-info" id="menu1">
+      <h3 style="text-align:center">Please give at least 24 hours notice for your orders</h3>
+    </div>
+    </div>
+   
+  <div class="css2" height="400px">
+    <center>
+    <div class="col col1"><img src="pictures/programming/try.jpg" height="300px" width="98%" style="border-radius: 30px;"></div>
+    </center>
+    <div class="col col2" id="service-pg">
+   <center>
+
+
+    Ofada rice, sauce and fried plantain
+</center>
+</div>
+  </div>
+
+  <div class="css2" height="400px">
+    <center>
+    <div class="col col1"><img src="pictures/programming/Chops.jpeg" height="300px" width="98%" style="border-radius: 30px;"></div>
+    </center>
+    <div class="col col2" id="service-pg"><center>Yummy baked/fried chops</center></div>
+  </div>
+
+  <div class="css2" height="400px">
+    <center>
+    <div class="col col1"><img src="pictures/programming/images (84).jpeg" height="300px" width="98%" style="border-radius: 30px;"></div>
+  
+    <div class="col col2" id="service-pg">
+      Roasted plantain {boli}, plantain sauce and <center>fried fish</center>
+   </div>
+   </center>
+  </div>
+   
+        <center>
+          <p id="menu-btn">
+            <p>
+              
+              <button id="contact-btn">  <a href="#contact">Contact </a></button>
+      </center>
+      </p>
+     </p>
+     
+</div>
+       
+      <section class="con-dtl" id="contact">
+      <form action="">
+        <center>
+          <div class="contact-body">
+            <h2>CONTACT US</h2>
+            <p>Feel free to contact us on any of these platforms</p>
+
+          </div>
+        </center>
+      </form>
+          </section>
+
+          <section class="blog-dtl" id="contact">
+
+          </section>
+       </body>
+     </html>
